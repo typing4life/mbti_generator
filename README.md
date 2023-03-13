@@ -1,1 +1,3 @@
-# mbti_generator
+# MBTI_Generator
+
+created by typing4life
