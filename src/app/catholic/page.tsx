@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 import TitleBox from '@/components/main/TitleBox'
-import defaultData from '@/data/default/index.json';
+import catholicData from '@/data/catholic/index.json';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,8 +19,8 @@ export default function Home() {
       </div>
 
       <TitleBox
-        title={defaultData.main.title}
-        description={defaultData.main.description} />
+        title={catholicData.main.title}
+        description={catholicData.main.description} />
 
       <div className={styles.grid}>
         <a
